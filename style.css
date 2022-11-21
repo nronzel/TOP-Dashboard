@@ -136,14 +136,15 @@ a.selected {
 
 .page-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
-    justify-content: center;
+    /* justify-items: center; */
+    /* justify-content: center; */
     align-items: center;
+    align-content: space-around;
     margin: 5rem 7rem;
     justify-items: center;
-    column-gap: 2rem;
+    /* column-gap: 2rem; */
 }
 
 /* Header */
